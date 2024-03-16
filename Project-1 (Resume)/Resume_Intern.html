@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Project</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        /* Media Queries for responsive design */
+        @media only screen and (max-width: 1510px) {
+            .section-1 {
+                margin-bottom: 85px !important;
+            }
+
+            .profile h2 {
+                width: 570px !important;
+            }
+
+            #profile-para {
+                width: 702px !important;
+            }
+
+            .career-objective h2 {
+                width: 355px !important;
+            }
+
+            #career-para {
+                width: 702px !important;
+            }
+
+            .education h2 {
+                width: 484px !important;
+            }
+
+            .education-details {
+                width: 702px !important;
+            }
+
+            .education-details h1 {
+                font-size: 29px !important;
+            }
+
+            .personal-skills h2 {
+                width: 396px !important;
+            }
+
+            .pskills-list {
+                width: 702px !important;
+            }
+
+            .pskills-list ul li {
+                line-height: 1.5 !important;
+            }
+
+        }
+
+        @media only screen and (max-width: 1320px) {
+
+            /* section-1 */
+            .section-1 {
+                margin-bottom: 83px !important;
+            }
+
+            #color-container {
+                width: 400px !important;
+            }
+
+            .name-img::before {
+                width: 400px !important;
+                height: 535px !important;
+            }
+
+            .name-img {
+                width: 400px !important;
+            }
+
+            .name-img img {
+                margin-bottom: 50px !important;
+            }
+
+            .contact-section {
+                width: 380px !important;
+            }
+
+            .skills::before {
+                width: 400px !important;
+            }
+
+            .skills {
+                width: 400px !important;
+            }
+
+            /* Section-2  */
+            .profile h2 {
+                width: 430px !important;
+            }
+
+            #profile-para {
+                width: 580px !important;
+            }
+
+            .career-objective h2 {
+                width: 230px !important;
+            }
+
+            #career-para {
+                width: 580px !important;
+            }
+
+            .education h2 {
+                width: 363px !important;
+            }
+
+            .education-details {
+                width: 580px !important;
+            }
+
+            .education-details h1 {
+                font-size: 21px !important;
+            }
+
+            .personal-skills h2 {
+                width: 275px !important;
+            }
+
+            .pskills-list {
+                width: 580px !important;
+            }
+
+            .pskills-list ul li {
+                font-size: 24px !important;
+                line-height: 1.6 !important;
+            }
+        }
+
+        @media only screen and (max-width: 1050px) {
+
+            /* section-1 */
+            .section-1 {
+                margin-bottom: 56px !important;
+            }
+
+            #color-container {
+                width: 300px !important;
+            }
+
+            .name-img::before {
+                width: 300px !important;
+                height: 380px !important;
+            }
+
+            .name-img {
+                width: 300px !important;
+            }
+
+            .name-img h1 {
+                font-size: 34px !important;
+            }
+
+            .name-img span {
+                font-size: 25px !important;
+            }
+
+            .name-img img {
+                width: 170px !important;
+                height: 170px !important;
+            }
+
+            .contact-section {
+                width: 300px !important;
+            }
+
+            .contact-section h1 {
+                font-size: 26px !important;
+            }
+
+            .contact {
+                font-size: 15px !important;
+            }
+
+            .contact-1 {
+                margin-right: 70px !important;
+            }
+
+            .contact-2 {
+                font-size: 14.8px !important;
+                margin-left: 0px !important;
+            }
+
+            .contact-3 {
+                margin-left: 0px !important;
+            }
+
+            .skills-section {
+                height: 757px !important;
+            }
+
+            .skills::before {
+                width: 300px !important;
+            }
+
+            .skills {
+                width: 300px !important;
+            }
+
+            .technical-skills h1 {
+                font-size: 26px !important;
+            }
+
+            .hobbies h1 {
+                font-size: 26px !important;
+            }
+
+            .languages h1 {
+                font-size: 26px !important;
+            }
+
+            /* Section-2  */
+            .profile {
+                margin-top: -15px !important;
+            }
+
+            .profile h1 {
+                font-size: 30px !important;
+            }
+
+            .profile h2 {
+                width: 300px !important;
+            }
+
+            #profile-para {
+                width: 410px !important;
+            }
+
+            .career-objective {
+                margin-top: -20px !important;
+            }
+
+            .career-objective h1 {
+                font-size: 30px !important;
+            }
+
+            .career-objective h2 {
+                width: 168px !important;
+            }
+
+            #career-para {
+                width: 410px !important;
+            }
+
+            .education {
+                margin-top: -20px !important;
+            }
+
+            .education h1 {
+                font-size: 30px !important;
+            }
+
+            .education h2 {
+                width: 256px !important;
+            }
+
+            .education-details {
+                width: 410px !important;
+            }
+
+            .education-details h1 {
+                font-size: 17px !important;
+            }
+
+            .education-details h3 {
+                font-size: 16px !important;
+            }
+
+            .personal-skills h1 {
+                font-size: 30px !important;
+            }
+
+            .personal-skills h2 {
+                width: 200px !important;
+            }
+
+            .pskills-list {
+                width: 410px !important;
+            }
+
+            .pskills-list ul li {
+                font-size: 24px !important;
+                line-height: 1 !important;
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            .section-1 {
+                margin-bottom: 70px !important;
+            }
+
+            #color-container {
+                width: 220px !important;
+            }
+
+            .name-img::before {
+                width: 220px !important;
+                height: 318px !important;
+            }
+
+            .name-img {
+                width: 220px !important;
+            }
+
+            .name-img h1 {
+                font-size: 28px !important;
+            }
+
+            .name-img span {
+                font-size: 22px !important;
+            }
+
+            .name-img img {
+                width: 150px !important;
+                height: 150px !important;
+                margin-bottom: 25px !important;
+            }
+
+            .contact-section {
+                width: 220px !important;
+            }
+
+            .contact img {
+                height: 30px !important;
+                width: 30px !important;
+            }
+
+            .contact-section h1 {
+                font-size: 23px !important;
+            }
+
+            .contact {
+                font-size: 15px !important;
+            }
+
+            .contact-1 img {
+                width: 20px !important;
+                height: 20px !important;
+            }
+
+            .contact-1 {
+                font-size: 15px !important;
+                margin-right: 20px !important;
+            }
+
+            .contact-2 img {
+                width: 20px !important;
+                height: 20px !important;
+            }
+
+            .contact-2 {
+                font-size: 11.5px !important;
+                margin-left: 0px !important;
+            }
+
+            .contact-3 img {
+                width: 30px !important;
+                height: 30px !important;
+            }
+
+            .contact-3 {
+                font-size: 12px !important;
+                margin-right: 5px !important;
+            }
+
+            .skills-section {
+                height: 600px !important;
+            }
+
+            .skills::before {
+                width: 220px !important;
+            }
+
+            .skills {
+                width: 220px !important;
+            }
+
+            .technical-skills h1 {
+                font-size: 21px !important;
+                margin-left: 15px;
+            }
+
+            .technical-skills ul li {
+                font-size: 17px !important;
+            }
+
+            .hobbies h1 {
+                font-size: 20px !important;
+                margin-left: 20px;
+            }
+
+            .hobbies ul li {
+                font-size: 17px !important;
+            }
+
+            .languages h1 {
+                font-size: 21px !important;
+                margin-left: 15px;
+            }
+
+            .languages ul li {
+                font-size: 17px !important;
+            }
+
+            /* Section-2  */
+            .profile {
+                margin-top: -15px !important;
+            }
+
+            .profile h1 {
+                font-size: 23px !important;
+            }
+
+            .profile h2 {
+                width: 245px !important;
+                margin-top: 3px !important;
+                margin-left: 8px !important
+            }
+
+            #profile-para {
+                width: 320px !important;
+                font-size: 18px !important;
+            }
+
+            .career-objective {
+                margin-top: -20px !important;
+            }
+
+            .career-objective h1 {
+                font-size: 23px !important;
+            }
+
+            .career-objective h2 {
+                width: 143px !important;
+                margin-top: 5px !important;
+                margin-left: 8px !important;
+            }
+
+            #career-para {
+                width: 320px !important;
+                font-size: 18px !important;
+            }
+
+            .education {
+                margin-top: -20px !important;
+            }
+
+            .education h1 {
+                font-size: 23px !important;
+            }
+
+            .education h2 {
+                width: 211px !important;
+                margin-top: 5px !important;
+                margin-left: 8px !important;
+            }
+
+            .education-details {
+                width: 320px !important;
+            }
+
+            .education-details h1 {
+                font-size: 17px !important;
+                margin-bottom: 0px !important;
+            }
+
+            .education-details h3 {
+                font-size: 15px !important;
+            }
+
+            .personal-skills h1 {
+                font-size: 23px !important;
+            }
+
+            .personal-skills h2 {
+                width: 167px !important;
+                margin-top: 5px !important;
+                margin-left: 8px !important;
+            }
+
+            .pskills-list {
+                width: 320px !important;
+            }
+
+            .pskills-list ul li {
+                font-size: 22px !important;
+            }
+
+        }
+
+        @media only screen and (max-width: 605px) {
+            .section-1 {
+                margin-bottom: 70px !important;
+                width: 30vw !important;
+            }
+
+            #color-container {
+                width: 150px !important;
+            }
+
+            .name-img::before {
+                width: 150px !important;
+                height: 326px !important;
+            }
+
+            .name-img {
+                width: 150px !important;
+                height: 325px !important;
+            }
+
+            .name-img h1 {
+                font-size: 17.8px !important;
+            }
+
+            .name-img span {
+                font-size: 16px !important;
+            }
+
+            .name-img img {
+                width: 80px !important;
+                height: 80px !important;
+                margin-bottom: 25px !important;
+            }
+
+            .contact-section {
+                width: 140px !important;
+            }
+
+            .contact img {
+                height: 20px !important;
+                width: 20px !important;
+            }
+
+            .contact-section h1 {
+                font-size: 15.5px !important;
+            }
+
+            .contact-1 img {
+                width: 14px !important;
+                height: 14px !important;
+            }
+
+            .contact-1 {
+                font-size: 9px !important;
+                margin-right: 20px !important;
+            }
+
+            .contact-2 img {
+                width: 10px !important;
+                height: 10px !important;
+            }
+
+            .contact-2 {
+                font-size: 8px !important;
+                margin-left: 0px !important;
+                width: 140px !important;
+            }
+
+            .contact-3 img {
+                width: 14px !important;
+                height: 14px !important;
+            }
+
+            .contact-3 {
+                font-size: 8px !important;
+                margin-right: 0px !important;
+            }
+
+            .skills-section {
+                height: 530px !important;
+            }
+
+            .skills::before {
+                width: 150px !important;
+            }
+
+            .skills {
+                width: 150px !important;
+            }
+
+            .technical-skills h1 {
+                font-size: 15.5px !important;
+                margin-left: 15px;
+            }
+
+            .technical-skills ul li {
+                font-size: 14px !important;
+            }
+
+            .hobbies h1 {
+                font-size: 14px !important;
+                margin-left: 20px;
+            }
+
+            .hobbies ul li {
+                font-size: 14px !important;
+            }
+
+            .languages h1 {
+                font-size: 15.5px !important;
+                margin-left: 15px;
+            }
+
+            .languages ul li {
+                font-size: 14px !important;
+            }
+
+            /* Section-2  */
+            .section-2 {
+                margin-left: 15px !important;
+            }
+
+            .profile {
+                margin-top: -15px !important;
+            }
+
+            .profile h1 {
+                font-size: 20px !important;
+            }
+
+            .profile h2 {
+                width: 210px !important;
+                margin-top: 3px !important;
+                margin-left: 8px !important;
+                height: 5px !important;
+            }
+
+            #profile-para {
+                width: 290px !important;
+                font-size: 17px !important;
+            }
+
+            .career-objective {
+                margin-top: -20px !important;
+            }
+
+            .career-objective h1 {
+                font-size: 20px !important;
+            }
+
+            .career-objective h2 {
+                width: 120px !important;
+                margin-top: 2px !important;
+                margin-left: 8px !important;
+                height: 5px !important;
+            }
+
+            #career-para {
+                width: 290px !important;
+                font-size: 17px !important;
+            }
+
+            .education {
+                margin-top: -20px !important;
+            }
+
+            .education h1 {
+                font-size: 20px !important;
+            }
+
+            .education h2 {
+                width: 180px !important;
+                margin-top: 3px !important;
+                margin-left: 8px !important;
+                height: 5px !important;
+            }
+
+            .education-details {
+                width: 290px !important;
+            }
+
+            .education-details h1 {
+                font-size: 16.5px !important;
+                margin-bottom: 0px !important;
+            }
+
+            .education-details h3 {
+                font-size: 15px !important;
+            }
+
+            .personal-skills h1 {
+                font-size: 20px !important;
+            }
+
+            .personal-skills {
+                margin-top: -10px !important;
+            }
+
+            .personal-skills h2 {
+                width: 137px !important;
+                margin-top: 3px !important;
+                margin-left: 8px !important;
+                height: 5px !important;
+            }
+
+            .pskills-list {
+                width: 290px !important;
+            }
+
+            .pskills-list ul li {
+                font-size: 17px !important;
+            }
+
+        }
+
+        @media only screen and (max-width: 475px) {
+            .section-1 {
+                width: 40vw !important;
+                margin-left: 0px !important;
+                margin-bottom: 170px !important;
+            }
+
+            .name-img::before {
+                height: 382px !important;
+            }
+
+            .name-img {
+                height: 380px !important;
+            }
+
+            .technical-skills ul li {
+                line-height: 1.8 !important;
+            }
+
+            .hobbies ul li {
+                line-height: 1.8 !important;
+            }
+
+            .languages ul li {
+                line-height: 1.8 !important;
+            }
+
+            /* Section-2  */
+            .section-2 {
+                margin-left: 15px !important;
+            }
+
+            .profile {
+                margin-top: -90px !important;
+            }
+
+            .profile h1 {
+                font-size: 20px !important;
+            }
+
+            .profile h2 {
+                width: 150px !important;
+            }
+
+            #profile-para {
+                width: 210px !important;
+                font-size: 17px !important;
+            }
+
+            .career-objective {
+                margin-top: -20px !important;
+            }
+
+            .career-objective h1 {
+                font-size: 20px !important;
+            }
+
+            .career-objective h2 {
+                width: 56px !important;
+            }
+
+            #career-para {
+                width: 210px !important;
+                font-size: 17px !important;
+            }
+
+            .education {
+                margin-top: -20px !important;
+            }
+
+            .education h1 {
+                font-size: 20px !important;
+            }
+
+            .education h2 {
+                width: 115px !important;
+            }
+
+            .education-details {
+                width: 210px !important;
+            }
+
+            .education-details h1 {
+                font-size: 16.5px !important;
+                margin-bottom: 0px !important;
+            }
+
+            .education-details h3 {
+                font-size: 15px !important;
+            }
+
+            .skills-section {
+                height: 686px !important;
+            }
+
+            .personal-skills h1 {
+                font-size: 20px !important;
+            }
+
+            .personal-skills {
+                margin-top: -10px !important;
+            }
+
+            .personal-skills h2 {
+                width: 70px !important;
+            }
+
+            .pskills-list {
+                width: 210px !important;
+            }
+
+
+        }
+
+        .container {
+            display: flex;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Section -1 styling */
+        .section-1 {
+            /* border: 2px solid red; */
+            width: 40vw;
+            /* height: 50vh; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            margin-bottom: 50px;
+        }
+
+        #color-container {
+            width: 500px;
+            /* border: 2px solid red; */
+            background-color: rgba(220, 230, 239, 0.64);
+            z-index: -2;
+        }
+
+        .name-img::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            height: 552px;
+            width: 500px;
+            background-color: rgba(53, 49, 49, 0.969);
+            border-bottom-left-radius: 277px;
+            border-bottom-right-radius: 277px;
+            z-index: -1;
+        }
+
+        .name-img {
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 500px;
+            border-bottom-left-radius: 250px;
+            border-bottom-right-radius: 250px;
+        }
+
+        .name-img h1 {
+            font-size: 42px;
+            /* margin-bottom: 4px; */
+            color: white;
+        }
+
+        .name-img span {
+            font-size: 30px;
+            color: white;
+        }
+
+        .name-img img {
+            width: 300px;
+            height: 300px;
+            border: 10px solid white;
+            border-radius: 160px;
+            margin-top: 25px;
+            margin-bottom: 65px;
+        }
+
+        .contact-section {
+            /* border: 2px solid red; */
+            margin-top: 30px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact img {
+            width: 45px;
+            height: 45px;
+            margin-right: 10px;
+            border-radius: 20px;
+        }
+
+        .contact-1 {
+            display: flex;
+            align-items: center;
+            margin-right: 50px;
+        }
+
+        .contact-1 img {
+            width: 28px;
+            height: 28px;
+            margin-right: 10px;
+        }
+
+        .contact-2 {
+            display: flex;
+            align-items: center;
+            margin-left: 40px;
+        }
+
+        .contact-2 img {
+            width: 32px;
+            height: 32px;
+            margin-right: 10px;
+        }
+
+        .contact-3 {
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        .contact-3 img {
+            width: 42px;
+            height: 42px;
+            margin-right: 10px;
+        }
+
+        .contact-2 h2 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        /* Skills section styling */
+        .skills-section {
+            position: relative;
+            margin-top: 30px
+        }
+
+        .skills::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            width: 500px;
+            height: 100%;
+            background-color: rgba(53, 49, 49, 0.969);
+            border-top-left-radius: 244px;
+            border-top-right-radius: 244px;
+            z-index: -1;
+        }
+
+        .skills {
+            /* border: 2px solid red; */
+            width: 500px;
+            padding: 100px 0px 30px 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+        }
+
+        /* Technical skills styling */
+        .technical-skills h1 {
+            font-size: 40px;
+        }
+
+        .technical-skills ul li {
+            font-size: 20px;
+            line-height: 1.3;
+        }
+
+        /* Hobbies styling */
+        .hobbies h1 {
+            font-size: 40px;
+        }
+
+        .hobbies ul li {
+            font-size: 23px;
+            line-height: 1.3;
+        }
+
+        /* Languages styling */
+        .languages h1 {
+            font-size: 40px;
+        }
+
+        .languages ul li {
+            font-size: 23px;
+            line-height: 1.3;
+        }
+
+
+        /* Section-2 styling */
+        .section-2 {
+            /* border: 2px solid red; */
+            width: 60vw;
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 40px;
+        }
+
+        /* profile details styling */
+        .profile {
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .profile h1 {
+            font-size: 45px;
+        }
+
+        .profile h2 {
+            /* border: 2px solid red; */
+            width: 665px;
+            height: 10px;
+            margin: 10px 0px 0px 20px;
+            background-color: rgba(47, 44, 44, 0.886);
+        }
+
+        #profile-para {
+            /* border: 2px solid red; */
+            width: 810px;
+            font-size: 25px;
+            margin-top: 7px;
+            line-height: 1.3;
+            background-color: rgba(220, 230, 239, 0.64);
+        }
+
+        /* career objective styling here */
+        .career-objective {
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .career-objective h1 {
+            font-size: 45px;
+        }
+
+        .career-objective h2 {
+            /* border: 2px solid red; */
+            width: 455px;
+            height: 10px;
+            margin: 10px 0px 0px 20px;
+            background-color: rgba(47, 44, 44, 0.886);
+        }
+
+        #career-para {
+            /* border: 2px solid red; */
+            width: 810px;
+            font-size: 25px;
+            margin-top: 7px;
+            line-height: 1.3;
+            background-color: rgba(220, 230, 239, 0.64);
+        }
+
+        .education {
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .education h1 {
+            font-size: 45px;
+        }
+
+        .education h2 {
+            /* border: 2px solid red; */
+            width: 580px;
+            height: 10px;
+            margin: 10px 0px 0px 20px;
+            background-color: rgba(47, 44, 44, 0.886);
+        }
+
+        .education-details {
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            font-size: 14px;
+            background-color: rgba(220, 230, 239, 0.64);
+        }
+
+        .education-details h3 {
+            margin-top: 0px;
+            font-size: 20px;
+        }
+
+        /* Personal skills styling here */
+        .personal-skills {
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .personal-skills h1 {
+            font-size: 45px;
+        }
+
+        .personal-skills h2 {
+            /* border: 2px solid red; */
+            width: 490px;
+            height: 10px;
+            margin: 10px 0px 0px 20px;
+            background-color: rgba(47, 44, 44, 0.886);
+        }
+
+        .pskills-list {
+            /* border: 2px solid red; */
+            width: 810px;
+            background-color: rgba(220, 230, 239, 0.64);
+        }
+
+        .pskills-list ul li {
+            font-size: 26px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="container-id">
+        <div class="section-1">
+            <div id="color-container">
+                <div class="name-img">
+                    <div>
+                        <h1>GOURAV SAINI</h1>
+                        <span>WEB DESIGNER</span>
+                    </div>
+                    <img src="my img2.jpg" alt="">
+                </div>
+                <!-- Contact section code here -->
+                <div class="contact-section">
+                    <div class="contact">
+                        <img src="contact.png" alt="">
+                        <h1>CONTACT ME</h1>
+                    </div>
+                    <div class="contact-1">
+                        <img src="phone.png" alt="">
+                        <h2>+91-7668245355</h2>
+                    </div>
+                    <div class="contact-2">
+                        <img src="email-1.png" alt="">
+                        <h2>gauravs1650@gmail.com</h2>
+                    </div>
+                    <div class="contact-3">
+                        <img src="location.jpg" alt="">
+                        <h2>Roorkee, Uttarakhand</h2>
+                    </div>
+                </div>
+                <!-- Final skills section code -->
+                <div class="skills-section">
+                    <div class="skills">
+                        <!-- technical skills code -->
+                        <div class="technical-skills">
+                            <h1>Technical Skills</h1>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JAVASCRIPT</li>
+                                <li>CORE PHP</li>
+                                <li>C Programming</li>
+                                <li>CORE C++</li>
+                            </ul>
+                        </div>
+                        <!-- Hobboies code -->
+                        <div class="hobbies">
+                            <h1>HOBBOIES</h1>
+                            <ul>
+                                <li>Reading Books</li>
+                                <li>Travelling</li>
+                                <li>Listening Songs</li>
+                                <li>Sports & Fitness</li>
+                            </ul>
+                        </div>
+                        <!-- Languages code -->
+                        <div class="languages">
+                            <h1>Languages</h1>
+                            <ul>
+                                <li>Hindi</li>
+                                <li>English</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <!-- Profile details code here -->
+            <div class="profile">
+                <h1>Profile</h1>
+                <h2></h2>
+            </div>
+            <p id="profile-para">"A passionate <b>Frontend Web Designer</b> fueled by crativity. Althougt my
+                professional journey is just begining, I bring proficiency in <b>HTML5</b>, <b>CSS3</b>, and
+                <b>JAVASCRIPT.</b> Eager to turn my skills into impactful designs, I invite you to explore my
+                portfolio as I embark on this exciting journey in the world of web design."
+            </p>
+            <!-- Career objective code here -->
+            <div class="career-objective">
+                <h1>Carrer Objective</h1>
+                <h2></h2>
+            </div>
+            <p id="career-para">Highly motivated and creative Fresher Web Designer with a passion for designing
+                user-friendly websites.Looking for an entry-level position where I can Prove ability to collaborate with
+                teams to implement responsive web design.</p>
+            <!-- Education details code here -->
+            <div class="education">
+                <h1>Education</h1>
+                <h2></h2>
+            </div>
+            <div class="education-details">
+                <h1><b>Diploma in Computer Science Engineering (June 2024)</b></h1>
+                <h3>Quantum University, Roorkee, Uttarakhand</h3>
+                <br>
+                <h1><b>Inetrmediate Education (12th Grade) &nbsp;&nbsp;&nbsp;&nbsp;
+                        (May 2021)</b></h1>
+                <h3>S.S.D. Inter College, Jalalpur Dada, Haridwar, Uttarakhand</h3>
+                <br>
+                <h1><b>High School Education (10thGrade)&nbsp;&nbsp;&nbsp;&nbsp;(May 2021)</b></h1>
+                <h3>S.S.D. Inter College, Jalalpur Dada, Haridwar, Uttarakhand</h3>
+            </div>
+            <div class="personal-skills">
+                <h1>Personal Skills</h1>
+                <h2></h2>
+            </div>
+            <div class="pskills-list">
+                <ul>
+                    <li>Communication Skills</li>
+                    <li>Teamwork</li>
+                    <li>Hardworking and Consider matter accordingly</li>
+                    <li>Problem Solving</li>
+                    <li>Time Management</li>
+                    <li>Organizational Skills</li>
+                    <li>Initiative</li>
+                    <li>Accepting Challenges</li>
+                    <li>Positive Attitude</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
